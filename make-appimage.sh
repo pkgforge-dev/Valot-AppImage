@@ -14,7 +14,7 @@ export STARTUPWMCLASS=com.odnoyko.valot # Default to Wayland's wmclass. For X11,
 export GTK_CLASS_FIX=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/valot
+quick-sharun /usr/bin/com.odnoyko.valot
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
